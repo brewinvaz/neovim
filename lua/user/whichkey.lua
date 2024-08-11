@@ -1,18 +1,12 @@
 local M = {
   "folke/which-key.nvim",
-  opts = {
-    win = {
-      padding = { 2, 2 },
-    },
-  },
 }
 
--- M.opts = {
---   win = {
---     border = "rounded",
---     padding = { 2, 2 },
---   },
--- }
+M.opts = {
+  win = {
+    padding = { 2, 2 },
+  },
+}
 
 function M.config()
   local mappings = {
@@ -29,11 +23,11 @@ function M.config()
     { "<leader>p", group = "Plugins" },
     { "<leader>t", group = "Test" },
     { "<leader>a", group = "Tab" },
-    { "<leader>an", "<cmd>$tabnew<cr>", desc = "New Empty Tab" },
-    { "<leader>aN", "<cmd>tabnew %<cr>", desc = "New Tab" },
-    { "<leader>ao", "<cmd>tabonly<cr>", desc = "Only" },
-    { "<leader>ah", "<cmd>-tabmove<cr>", desc = "Move Left" },
-    { "<leader>al", "<cmd>+tabmove<cr>", desc = "Move Right" },
+    { "<leader>an", "<cmd>$tabnew<CR>", desc = "New Empty Tab" },
+    { "<leader>aN", "<cmd>tabnew %<CR>", desc = "New Tab" },
+    { "<leader>ao", "<cmd>tabonly<CR>", desc = "Only" },
+    { "<leader>ah", "<cmd>-tabmove<CR>", desc = "Move Left" },
+    { "<leader>al", "<cmd>+tabmove<CR>", desc = "Move Right" },
     { "<leader>T", group = "Treesitter" },
   }
 
