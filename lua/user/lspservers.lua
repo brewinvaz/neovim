@@ -1,0 +1,16 @@
+return {
+  "bashls",
+  "cssls",
+  "dockerls",
+  "emmet_ls",
+  "eslint",
+  "html",
+  "jsonls",
+  "lua_ls",
+  "prismals",
+  "pyright",
+  "tailwindcss",
+  "terraformls",
+  "tsserver",
+  "yamlls",
+}
