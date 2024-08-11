@@ -7,6 +7,7 @@ return {
   "html",
   "jsonls",
   "lua_ls",
+  "marksman",
   "prismals",
   "pyright",
   "tailwindcss",
