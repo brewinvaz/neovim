@@ -18,5 +18,8 @@ spec "user.telescope"
 spec "user.treesitter"
 spec "user.whichkey"
 
+-- Extras
+spec "user.extras.codeium"
+
 -- Initialize lazy after the plugin table is defined
 require "user.lazy"

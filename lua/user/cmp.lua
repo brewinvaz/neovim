@@ -44,7 +44,7 @@ function M.config()
   local luasnip = require "luasnip"
   require("luasnip/loaders/from_vscode").lazy_load()
 
-  vim.api.nvim_set_hl(0, "CmpItemKindCopilot", { fg = "#6CC644" })
+  vim.api.nvim_set_hl(0, "CmpItemKindCodeium", { fg = "#6CC644" })
   vim.api.nvim_set_hl(0, "CmpItemKindTabnine", { fg = "#CA42F0" })
   vim.api.nvim_set_hl(0, "CmpItemKindEmoji", { fg = "#FDE030" })
 
@@ -121,6 +121,11 @@ function M.config()
           emoji = "",
         })[entry.source.name]
 
+        if entry.source.name == "codeium" then
+          vim_item.kind = icons.git.Codeium
+          vim_item.kind_hl_group = "CmpItemKindCodeium"
+        end
+
         if entry.source.name == "emoji" then
           vim_item.kind = icons.misc.Smiley
           vim_item.kind_hl_group = "CmpItemKindEmoji"
@@ -135,7 +140,7 @@ function M.config()
       end,
     },
     sources = {
-      { name = "copilot" },
+      { name = "codeium" },
       { name = "nvim_lsp" },
       { name = "luasnip" },
       { name = "cmp_tabnine" },
