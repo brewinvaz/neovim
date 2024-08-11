@@ -67,7 +67,6 @@ keymap("n", "<Tab>", "<cmd>:popup mousemenu<CR>")
 -- Tailwind optimizations
 keymap({ "n", "x" }, "j", "gj", opts)
 keymap({ "n", "x" }, "k", "gk", opts)
-keymap("n", "<leader>w", ":lua vim.wo.wrap = not vim.wo.wrap<CR>", opts)
 
 -- Normal mode in terminal
 vim.api.nvim_set_keymap('t', '<C-;>', '<C-\\><C-n>', opts)
