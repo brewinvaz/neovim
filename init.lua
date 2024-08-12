@@ -27,6 +27,7 @@ spec "user.whichkey"
 -- Extras
 spec "user.extras.codeium"
 spec "user.extras.eyeliner"
+spec "user.extras.gitlinker"
 spec "user.extras.illuminate"
 spec "user.extras.neogit"
 spec "user.extras.neoscroll"

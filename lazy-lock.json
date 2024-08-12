@@ -12,6 +12,7 @@
   "codeium.nvim": { "branch": "main", "commit": "f6a2ef32a9e923cb0104a19d3e426b0e40e49505" },
   "eyeliner.nvim": { "branch": "main", "commit": "7385c1a29091b98ddde186ed2d460a1103643148" },
   "friendly-snippets": { "branch": "main", "commit": "00ebcaa159e817150bd83bfe2d51fa3b3377d5c4" },
+  "gitlinker.nvim": { "branch": "master", "commit": "542f51784f20107ef9ecdadc47825204837efed5" },
   "gitsigns.nvim": { "branch": "main", "commit": "562dc47189ad3c8696dbf460d38603a74d544849" },
   "harpoon": { "branch": "master", "commit": "ccae1b9bec717ae284906b0bf83d720e59d12b91" },
   "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
