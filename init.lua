@@ -25,6 +25,7 @@ spec "user.whichkey"
 spec "user.extras.codeium"
 spec "user.extras.illuminate"
 spec "user.extras.neoscroll"
+spec "user.extras.oil"
 spec "user.extras.tabby"
 
 -- Initialize lazy after the plugin table is defined
