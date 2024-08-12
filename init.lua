@@ -20,6 +20,7 @@ spec "user.nvimtree"
 spec "user.schemastore"
 spec "user.telescope"
 spec "user.treesitter"
+spec "user.ufo"
 spec "user.whichkey"
 
 -- Extras
