@@ -1,19 +1,35 @@
 # Neovim Setup Guide
 
-## 1. Clone Repo
+## Pre-requisites
 
-Clone repo into `$HOME/.config/nvim`
+1.  Ensure that you have NVIM v0.10.1 or higher installed
 
-## 2. Setup Mason Linters, Formatters
+```sh
+nvim --version
+```
 
-Install the following tools manually `:Mason`
+## Clone Repo
 
-Linters
-* flake8
+1. Clone github repo into `$HOME/.config/nvim`
 
-Formatters
-* black
+## Other Setup
+
+1. Mason - install the following tools manually `:Mason`
+
+* Linters - flake8
+* Formatters - black
 
 ##  TODO
 
 - [ ] Evaluate neotab
+
+##  Troubleshooting
+
+1. Lazy plug-in installation may fail due to artifacts from other plugin managers or older versions of Neovim. Clear cache, state and other artifacts before you clone the repo.
+
+```sh
+rm -rf ~/.config/nvim/
+rm -rf ~/.local/state/nvim/
+rm -rf ~/.local/share/nvim/
+rm -rf ~/.cache/nvim/
+```
