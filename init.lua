@@ -8,6 +8,7 @@ spec "user.bufdelete"
 spec "user.cmp"
 spec "user.colorscheme"
 spec "user.devicons"
+spec "user.harpoon"
 spec "user.lspconfig"
 spec "user.lualine"
 spec "user.markdown-preview"
@@ -22,7 +23,6 @@ spec "user.whichkey"
 
 -- Extras
 spec "user.extras.codeium"
-spec "user.extras.harpoon"
 spec "user.extras.neoscroll"
 spec "user.extras.tabby"
 
