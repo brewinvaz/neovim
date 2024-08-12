@@ -3,6 +3,7 @@ require "user.keymaps"
 require "user.options"
 
 -- Plugins
+spec "user.breadcrumbs"
 spec "user.bufdelete"
 spec "user.cmp"
 spec "user.colorscheme"
@@ -11,6 +12,7 @@ spec "user.lspconfig"
 spec "user.lualine"
 spec "user.markdown-preview"
 spec "user.mason"
+spec "user.navic"
 spec "user.none-ls"
 spec "user.nvimtree"
 spec "user.schemastore"
@@ -20,6 +22,7 @@ spec "user.whichkey"
 
 -- Extras
 spec "user.extras.codeium"
+spec "user.extras.harpoon"
 
 -- Initialize lazy after the plugin table is defined
 require "user.lazy"
