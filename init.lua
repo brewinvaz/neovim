@@ -30,7 +30,7 @@ spec "user.whichkey"
 
 -- Extras
 spec "user.extras.codeium"
-spec "user.extras.eyeliner"
+-- spec "user.extras.eyeliner"
 spec "user.extras.fidget"
 spec "user.extras.gitlinker"
 spec "user.extras.illuminate"
