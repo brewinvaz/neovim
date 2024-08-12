@@ -25,6 +25,7 @@ spec "user.whichkey"
 
 -- Extras
 spec "user.extras.codeium"
+spec "user.extras.eyeliner"
 spec "user.extras.illuminate"
 spec "user.extras.neoscroll"
 spec "user.extras.oil"
