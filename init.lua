@@ -23,6 +23,7 @@ spec "user.whichkey"
 
 -- Extras
 spec "user.extras.codeium"
+spec "user.extras.illuminate"
 spec "user.extras.neoscroll"
 spec "user.extras.tabby"
 
