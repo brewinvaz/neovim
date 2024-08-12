@@ -4,6 +4,7 @@ require "user.keymaps"
 require "user.options"
 
 -- Plugins
+spec "user.autopairs"
 spec "user.breadcrumbs"
 spec "user.bufdelete"
 spec "user.cmp"
