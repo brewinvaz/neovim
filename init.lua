@@ -34,7 +34,9 @@ spec "user.extras.colorizer"
 spec "user.extras.dressing"
 -- spec "user.extras.eyeliner"
 spec "user.extras.fidget"
+spec "user.extras.flash"
 spec "user.extras.gitlinker"
+spec "user.extras.hardtime"
 spec "user.extras.helpview"
 spec "user.extras.illuminate"
 spec "user.extras.neogit"
@@ -43,6 +45,9 @@ spec "user.extras.neotab"
 spec "user.extras.noice"
 spec "user.extras.oil"
 spec "user.extras.tabby"
+
+-- DAP
+-- spec "user.dap.nvim-dap"
 
 -- Initialize lazy after the plugin table is defined
 require "user.lazy"
