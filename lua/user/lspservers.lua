@@ -10,6 +10,7 @@ return {
   "marksman",
   "prismals",
   "pyright",
+  "svelte",
   "tailwindcss",
   "terraformls",
   "tsserver",
