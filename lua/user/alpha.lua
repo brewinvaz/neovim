@@ -31,6 +31,7 @@ function M.config()
     button("c", icons.ui.Gear .. " Config", ":e ~/.config/nvim/init.lua <CR>"),
     button("q", icons.ui.SignOut .. " Quit", ":qa<CR>"),
   }
+
   local function footer()
     return "brewin.vaz@gmail.com"
   end
@@ -61,6 +62,12 @@ function M.config()
     ]]
     end,
   })
+
+  local wk = require "which-key"
+
+  wk.add {
+    { "<leader>a", ":Alpha<CR>", desc = "Alpha" },
+  }
 end
 
 return M
